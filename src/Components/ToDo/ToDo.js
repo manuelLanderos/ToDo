@@ -62,8 +62,11 @@ function TodoList() {
         <form className='' onSubmit={handleAddTodoSubmit}>
           <input type="text" name="todoName" placeholder="Enter To Do's" />
           <br></br>
-          <br>
-          </br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <button href="#" class="button">
             <div class="button__line"></div>
             <div class="button__line"></div>

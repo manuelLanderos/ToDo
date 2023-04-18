@@ -40,7 +40,7 @@ ul {
 }
 
 .delete:hover {
-  background-color: #772ce8;
+  background-color: #991402;
 }
 
 .list {
@@ -62,9 +62,15 @@ button {
 
 }
 
-input {
+.checkbox {
   position: absolute;
   left: 34.5%;
+  margin-top: 19px;
+}
+
+input {
+  position: absolute;
+  left: 30.5%;
   margin-top: 20px;
 }
 
@@ -94,6 +100,8 @@ input {
   width: 20%;
 
 }
+
+
 
 .button:hover {
   cursor: pointer;
