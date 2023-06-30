@@ -85,7 +85,11 @@ input[type=checkbox] {
     -webkit-transform: scale(.3);
     /* Safari and Chrome */
     -o-transform: scale(.3);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    /* Safari, Chrome */
+    -moz-transform: translateY(-50%);
+    /* Firefox */
+    -ms-transform: translateY(-50%);
 
   }
 }
