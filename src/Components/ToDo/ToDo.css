@@ -65,6 +65,17 @@ button {
 
 }
 
+input[type=checkbox] {
+  -ms-transform: scale(.5);
+  /* IE */
+  -moz-transform: scale(.5);
+  /* FF */
+  -webkit-transform: scale(.5);
+  /* Safari and Chrome */
+  -o-transform: scale(.5);
+  /* Opera */
+}
+
 .checkbox {
   position: absolute;
   left: -30px;
@@ -74,16 +85,6 @@ button {
   height: 10px;
 }
 
-input[type=checkbox] {
-  -ms-transform: scale(1);
-  /* IE */
-  -moz-transform: scale(1);
-  /* FF */
-  -webkit-transform: scale(1);
-  /* Safari and Chrome */
-  -o-transform: scale(1);
-  /* Opera */
-}
 
 
 
