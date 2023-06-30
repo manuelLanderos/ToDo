@@ -70,7 +70,8 @@ button {
   left: -30px;
   top: 50%;
   transform: translateY(-50%);
-  max-width: 1%;
+  width: 20px;
+  height: 20px;
 }
 
 
