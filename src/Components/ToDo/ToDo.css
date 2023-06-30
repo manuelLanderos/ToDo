@@ -160,7 +160,7 @@ input {
   letter-spacing: 2px;
   transition: all .3s ease;
   background-color: transparent;
-  bottom: -10%;
+  bottom: 10vh;
 
 }
 
