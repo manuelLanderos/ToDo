@@ -76,6 +76,7 @@ button {
     /* Safari and Chrome */
     -o-transform: scale(.3);
     /* Opera */
+    transform: translateY(-50%);
   }
 }
 
