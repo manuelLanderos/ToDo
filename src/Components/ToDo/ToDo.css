@@ -78,15 +78,15 @@ input[type=checkbox] {
 @media screen and (max-width: 600px) {
 
   input[type=checkbox] {
-    -ms-transform: scale(.3) translateX(-100px);
+    -ms-transform: scale(.3) translateX(-100px) translateY(100px);
     /* IE */
-    -moz-transform: scale(.3) translateX(-100px);
+    -moz-transform: scale(.3) translateX(-100px) translateY(100px);
     /* FF */
-    -webkit-transform: scale(.3) translateX(-100px);
+    -webkit-transform: scale(.3) translateX(-100px) translateY(100px);
     /* Safari and Chrome */
-    -o-transform: scale(.3) translateX(-100px);
+    -o-transform: scale(.3) translateX(-100px) translateY(100px);
     /* Opera */
-    transform: scale(.3) translateX(-100px);
+    transform: scale(.3) translateX(-100px) translateY(100px);
     /* Standard syntax */
 
 
